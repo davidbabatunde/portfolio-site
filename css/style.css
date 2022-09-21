@@ -42,6 +42,7 @@ h3 {
     margin: 0;
 }
 
+
 a {
     color: var(--magenta);
 }
@@ -189,6 +190,14 @@ nav [class*="fa-"]:hover {
 }
 #projects h3 {
     color: var(--aqua);
+    text-decoration: none;
+}
+#projects h3:hover {
+    color: var(--magenta);
+    cursor: pointer;
+}
+#projects .text a {
+    text-decoration: none;
 }
 
 #projects h4 {
