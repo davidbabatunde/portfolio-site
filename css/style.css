@@ -212,6 +212,7 @@ nav [class*="fa-"]:hover {
   line-height: 1.5;
   opacity: 0.8;
   margin: 1em auto;
+  text-align: left;
 }
 .features {
   list-style-type: disc;
