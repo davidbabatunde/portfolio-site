@@ -224,7 +224,7 @@ nav [class*="fa-"]:hover {
   margin: 0;
   display: flex;
   flex-flow: row wrap;
-  justify-content: flex-end;
+  justify-content: flex-start;
   gap: 1rem;
   font-size: 1rem;
 }
@@ -286,6 +286,9 @@ footer ul {
   }
   #projects .reverse ul {
     justify-content: flex-start;
+  }
+  #projects .stack {
+    justify-content: flex-end;
   }
 }
 @media (min-width: 850px) {
